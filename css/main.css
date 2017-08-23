@@ -1,0 +1,179 @@
+.reveal {
+    background-image: url(../img/2.jpg);
+    color: #4c4c4c;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    background-color: #fdfdfd;
+}
+.reveal h1.introHead {
+  margin-bottom: 0;
+  line-height: 0.3;
+  color: #f3b510;
+  font-size: 3.5em;
+}
+.reveal pre {
+  font-size: 0.7em;
+}
+.reveal pre.fontBig {
+  font-size: 0.9em;
+}
+.reveal section img {
+  border: none;
+}
+.introHead i,
+.introHead span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.introHead span {
+  margin-bottom: 0;
+  line-height: 0.8;
+}
+.reveal h1.introHead small {
+  font-size: 0.32em;
+  color: #4c4b49;
+  display: block;
+}
+
+.reveal h2 {
+    font-size: 1.3em;
+    color: #ecb010;
+}
+.reveal h2 small {
+    color: #cc8677;
+}
+
+.introHead i {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 72px;
+  height: 72px;
+}
+.blockWrap {
+  display: block;
+}
+.blockWrap .notes i {
+  display: block;
+  text-decoration: underline;
+}
+.blockWrap .notes {
+  display: block;
+  font-size: 0.4em;
+  float: right;
+}
+.blockWrap {
+  text-align: left;
+}
+.blockWrap p.steps i {
+  font-size: 0.7em;
+}
+.blockWrap p.steps span {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #42affa;
+  padding-left: 0.5em;
+}
+.reveal h6.commandTitle {
+  font-size: 0.5em;
+  font-weight: normal;
+  color: #42affa;
+  text-align: left;
+  padding-left: 2.6em;
+  margin-bottom: 10px;
+}
+.reveal pre.pre {
+  margin: 0 auto 30px;
+}
+.gridList {
+  overflow: hidden;
+}
+.gridList li {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.7em;
+  width: 23%;
+  padding: 0 0 0.7em;
+}
+.tipsLst li {
+  font-size: 0.7em;
+}
+.tipsLst p {
+  padding-left: 0.7em;
+}
+.tipsLst img {
+  display: block;
+}
+.reveal .smallTitle {
+  font-size: 0.95em;
+}
+.centerTxt{
+  text-align: center;
+}
+.reveal p.font16 {
+  font-size: 0.8em;
+}
+.reveal p.font16 small {
+  font-size: 0.75em;
+}
+.blue {
+  color: #42affa;
+}
+.white{
+  color: #FFF;
+}
+
+.reveal .slides {
+    margin-top: -1.5em;
+}
+
+.revealUl small {
+    color: #f28914;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reveal .controls .navigate-right,
+ .reveal .controls .navigate-right.enabled {
+     border-left-color: #4c4c4c;
+}
+
+ .reveal .controls .navigate-right.enabled:hover {
+     border-left-color: #272626;
+}
+
+.reveal .controls .navigate-left,
+ .reveal .controls .navigate-left.enabled {
+     border-right-color: #4c4c4c;
+}
+
+ .reveal .controls .navigate-left.enabled:hover {
+     border-right-color: #272626;
+}
+
+.reveal .controls .navigate-down,
+ .reveal .controls .navigate-down.enabled {
+     border-top-color: #4c4c4c;
+}
+
+ .reveal .controls .navigate-down.enabled:hover {
+     border-top-color: #272626;
+}
+
+.reveal .controls .navigate-up,
+ .reveal .controls .navigate-up.enabled {
+     border-bottom-color: #4c4c4c;
+}
+
+ .reveal .controls .navigate-up.enabled:hover {
+     border-bottom-color: #272626;
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
+    .reveal .slides {
+        height: 600px !important;
+        margin-top: -2.5em;
+    }
+}
